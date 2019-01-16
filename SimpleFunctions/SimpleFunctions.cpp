@@ -12,5 +12,10 @@ int func_int()
 
 int func_int_int(int i)
 {
-    return i;
+    return 0;
+}
+
+int func_int_int5(int i0, int i1, int i2, int i3, int i4)
+{
+    return 0;
 }

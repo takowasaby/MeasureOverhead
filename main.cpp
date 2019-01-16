@@ -2,9 +2,9 @@
 #include <iostream>
 #include <ctime>
 #include <iomanip>
-#include "SimpleFunctions.h"
+#include "SImpleFunctions/SimpleFunctions.h"
 
-#define TEST() action() 
+#define TEST() func_int_int5(i,i,i,i,i) 
 
 constexpr static int MEASURE_TIMES = 10000000;
 
