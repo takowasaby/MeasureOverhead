@@ -1,6 +1,6 @@
 PROGNAME := MeasureOverhead
 OUTDIR := build
-SRCS := main.cpp SimpleFunctions/SimpleFunctions.cpp
+SRCS := main.cpp SimpleFunctions/SimpleFunctions.cpp ClassMethods/ClassMethods.cpp FunctionObjects/FunctionObjects.cpp VirtualFunctions/VirtualFunctions.cpp
 CXXFLAGS := -std=c++17 -O0
 DUMPNAME := dump.txt
 
