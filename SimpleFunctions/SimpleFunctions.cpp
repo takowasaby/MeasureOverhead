@@ -127,3 +127,29 @@ void overload(std::string str)
 {
     return;
 }
+
+void nest_action1()
+{
+    action();
+    return;
+}
+void nest_action2()
+{
+    nest_action1();
+    return;
+}
+void nest_action3()
+{
+    nest_action2();
+    return;
+}
+void nest_action4()
+{
+    nest_action3();
+    return;
+}
+void nest_action5()
+{
+    nest_action4();
+    return;
+}

@@ -36,6 +36,12 @@ void not_overload_string(std::string);
 void overload(int);
 void overload(std::string);
 
+void nest_action1();
+void nest_action2();
+void nest_action3();
+void nest_action4();
+void nest_action5();
+
 template<class T>
 void action_T(T value)
 {
