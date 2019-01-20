@@ -22,47 +22,56 @@ public:
 };
 class Base2 : public Base1 
 {
+public:
     void virtual_function() override;
     void virtual_function_int(int) override;
 };
 class Base3 : public Base2
 {
+public:
     void virtual_function() override;
     void virtual_function_int(int) override;
 };
 class Base4 : public Base3
 {
+public:
     void virtual_function() override;
     void virtual_function_int(int) override;
 };
 class Base5 : public Base4
 {
+public:
     void virtual_function() override;
     void virtual_function_int(int) override;
 };
 
 class Derived1 : public Base1
 {
+public:
     void virtual_function() override;
     void virtual_function_int(int) override;
 };
 class Derived2 : public Base2
 {
+public:
     void virtual_function() override;
     void virtual_function_int(int) override;
 };
 class Derived3 : public Base3
 {
+public:
     void virtual_function() override;
     void virtual_function_int(int) override;
 };
 class Derived4 : public Base4
 {
+public:
     void virtual_function() override;
     void virtual_function_int(int) override;
 };
 class Derived5 : public Base5
 {
+public:
     void virtual_function() override;
     void virtual_function_int(int) override;
 };

@@ -15,8 +15,8 @@ private:
         void operator() (int);
     };
 public:
-    FuncObj    func_obj();
-    FuncObjInt func_obj_int();
-    std::function<void()>    func_void();
-    std::function<void(int)> func_void_int();
+    static FuncObj    func_obj();
+    static FuncObjInt func_obj_int();
+    static std::function<void()>    func_void();
+    static std::function<void(int)> func_void_int();
 };
