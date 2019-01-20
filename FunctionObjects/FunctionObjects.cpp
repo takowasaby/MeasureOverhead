@@ -1,5 +1,15 @@
 #include "FunctionObjects.h"
 
+void FuncObjFactory::FuncObj::operator()()
+{
+    return;
+}
+
+void FuncObjFactory::FuncObjInt::operator()(int)
+{
+    return;
+}
+
 FuncObjFactory::FuncObj FuncObjFactory::func_obj()
 {
     return FuncObj();
